@@ -1,0 +1,24 @@
+@import "chota.min.css";
+
+:root {
+  /* --color-primary: #14854F;
+  --color-lightGrey: #d2d6dd;
+  --color-grey: #747681;
+  --color-darkGrey: #3f4144;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --grid-maxWidth: 120rem;
+  --grid-gutter: 2rem;
+  --font-size: 1.6rem;
+  --font-family: "Helvetica Neue", sans-serif; */
+}
+
+main {
+  width: 66.66666%;
+  margin: auto;
+}
+
+.projeto {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
