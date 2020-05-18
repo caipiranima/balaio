@@ -1,5 +1,8 @@
 @import "chota.min.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
   /* --color-primary: #14854F;
   --color-lightGrey: #d2d6dd;
@@ -11,6 +14,21 @@
   --grid-gutter: 2rem;
   --font-size: 1.6rem;
   --font-family: "Helvetica Neue", sans-serif; */
+  --font-family-sans: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6 {
+  font-family: "Londrina Solid", sans-serif;
+}
+
+body {
+  background-color: #FFFEC0;
+  color: #162516;
 }
 
 main {
@@ -25,4 +43,17 @@ main {
 
 .ficha-tecnica {
   white-space: pre-line;
+}
+
+.separador {
+  background-image: url("../img/padrao.jpg");
+  height: 147px;
+  background-position: 47px 47px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-bottom: 3em;
+
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(102,102,102,1);
+  -moz-box-shadow: 0px 2px 1px 0px rgba(102,102,102,1);
+  box-shadow: 0px 2px 1px 0px rgba(102,102,102,1);
 }
