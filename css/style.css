@@ -22,3 +22,7 @@ main {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+
+.ficha-tecnica {
+  white-space: pre-line;
+}
